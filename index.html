@@ -7,114 +7,157 @@
     <title>Dashboard Isomorphic</title>
   </head>
   <body>
-    <aside class="side-bar">
-      <header class="side-bar-header">
-        <h1>Isomorphic</h1>
-      </header>
-      <nav class="side-bar-nav">
-        <ul>
-          <li class="row">
-            <a href="#">
-              <i class="fa fa-envelope"></i>
-              <span>
-                Email
-              </span>
-            </a>
-          </li>
-          <li class="row">
-            <a href="#">
-              <i class="fa fa-shopping-bag"></i>
-              <span>
-                Ecommerce
-              </span>
-              <i class="fa fa-arrow-botom _align-self-end"></i>
-            </a>
-            <ul class="acordion">
+    <div class="container row">
+      <aside class="side-bar">
+        <header class="side-bar-header">
+          <h1>Isomorphic</h1>
+        </header>
+        <nav class="side-bar-nav">
+          <ul>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-envelope"></i>
+                <span>
+                  Email
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-shopping-bag"></i>
+                <span>
+                  Ecommerce
+                </span>
+                <i class="fa fa-arrow-botom _align-self-end"></i>
+              </a>
+              <ul class="acordion">
+                <li>
+                  <a href="">
+                    <span>Item Ecommerce</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-map"></i>
+                <span>Maps</span>
+                <i class="fa fa-arrow-botom _align-self-end"></i>
+              </a>
+              <ul class="acordion">
+                <li>
+                  <a href="">
+                    <span>Item Ecommerce</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-calendar"></i>
+                <span>Calendar</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-clipboard"></i>
+                <span>Notes</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-list"></i>
+                <span>Todos</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-user-plus"></i>
+                <span>Contacts</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-line-chart"></i>
+                <span>Charts</span>
+                <i class="fa fa-arrow-botom _align-self-end"></i>
+              </a>
+              <ul class="acordion">
+                <li>
+                  <a href="">
+                    <span>Item Charts</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="" class="row">
+                <i class="fa fa-envelope"></i>
+                <span>Forms</span>
+                <i class="fa fa-arrow-botom _align-self-end"></i>
+              </a>
+              <ul class="acordion">
+                <li>
+                  <a href="">
+                    <span>Input</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>Editor</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <span>Forms With Validation</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <nav class="row _justify-space-between">
+          <button>
+            <i class="fa fa-bar"></i>
+          </button>
+          <div class="">
+            <form class="search-form" action="" method="post">
+              <input type="search" name="field" value="">
+              <button type="submit" name="button-search" class="action">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+            <ul class="row">
               <li>
-                <a href="">
-                  <span>Item Ecommerce</span>
-                </a>
+                <button type="button" name="message">
+                  <span class="notification -message">4</span>
+                  <i class="fa fa-envelope"></i>
+                </button>
+              </li>
+              <li>
+                <button type="button" name="alert">
+                  <span class="notification -alert">4</span>
+                  <i class="fa fa-bell"></i>
+                </button>
+              </li>
+              <li>
+                <button type="button" name="comment">
+                  <span class="notification -comment">4</span>
+                  <i class="fa fa-comments"></i>
+                </button>
+              </li>
+              <li>
+                <button type="button" name="shopping">
+                  <span class="notification -shopping">4</span>
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
               </li>
             </ul>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-map"></i>
-              <span>Maps</span>
-              <i class="fa fa-arrow-botom _align-self-end"></i>
-            </a>
-            <ul class="acordion">
-              <li>
-                <a href="">
-                  <span>Item Ecommerce</span>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-calendar"></i>
-              <span>Calendar</span>
-            </a>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-clipboard"></i>
-              <span>Notes</span>
-            </a>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-list"></i>
-              <span>Todos</span>
-            </a>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-user-plus"></i>
-              <span>Contacts</span>
-            </a>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-line-chart"></i>
-              <span>Charts</span>
-              <i class="fa fa-arrow-botom _align-self-end"></i>
-            </a>
-            <ul class="acordion">
-              <li>
-                <a href="">
-                  <span>Item Charts</span>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="row">
-            <a href="">
-              <i class="fa fa-envelope"></i>
-              <span>Forms</span>
-              <i class="fa fa-arrow-botom _align-self-end"></i>
-            </a>
-            <ul class="acordion">
-              <li>
-                <a href="">
-                  <span>Input</span>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <span>Editor</span>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <span>Forms With Validation</span>
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </aside>
+          </div>
+        </nav>
+      </main>
+    </div>
   </body>
 </html>
