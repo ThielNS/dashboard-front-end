@@ -7,13 +7,14 @@
     <title>Dashboard Isomorphic</title>
   </head>
   <body>
+
     <div class="container row">
       <aside class="side-bar">
         <header class="side-bar-header">
           <h1>Isomorphic</h1>
         </header>
         <nav class="side-bar-nav">
-          <ul>
+          <ul class="accordion">
             <li>
               <a href="" class="row">
                 <i class="fa fa-envelope"></i>
@@ -22,7 +23,7 @@
                 </span>
               </a>
             </li>
-            <li>
+            <li class="accordion-menu">
               <a href="" class="row">
                 <i class="fa fa-shopping-bag"></i>
                 <span>
@@ -30,7 +31,7 @@
                 </span>
                 <i class="fa fa-arrow-botom _align-self-end"></i>
               </a>
-              <ul class="acordion">
+              <ul>
                 <li>
                   <a href="">
                     <span>Item Ecommerce</span>
@@ -124,11 +125,11 @@
         </nav>
       </aside>
       <main>
-        <nav class="row _justify-space-between">
+        <nav class="row -justify-space-between">
           <button>
             <i class="fa fa-bars"></i>
           </button>
-          <div class="">
+          <div class="row">
             <form class="search-form" action="" method="post">
               <input type="search" name="field" value="">
               <button type="submit" name="button-search" class="action">
@@ -138,39 +139,39 @@
             <ul class="row">
               <li>
                 <button type="button" name="message">
-                  <span class="notification -message">4</span>
+                  <span class="notification -yellow">4</span>
                   <i class="fa fa-envelope"></i>
                 </button>
               </li>
               <li>
                 <button type="button" name="alert">
-                  <span class="notification -alert">4</span>
+                  <span class="notification -blue">4</span>
                   <i class="fa fa-bell"></i>
                 </button>
               </li>
               <li>
                 <button type="button" name="comment">
-                  <span class="notification -comment">4</span>
+                  <span class="notification -purple">4</span>
                   <i class="fa fa-comments"></i>
                 </button>
               </li>
               <li>
                 <button type="button" name="shopping">
-                  <span class="notification -shopping">4</span>
+                  <span class="notification -pink">4</span>
                   <i class="fa fa-shopping-cart"></i>
                 </button>
               </li>
             </ul>
             <div class="profile">
-              <div class="image -circle">
+              <div class="avatar -circle">
                 <img src="#" alt="image profile">
               </div>
               <span class="status -online"></span>
             </div>
           </div>
         </nav>
-        <section>
-          <article class="card col-12">
+        <div>
+          <section class="card col-12">
             <header>
               <h2>Input Group</h2>
               <p>Input.Group example Note: You dont need Col to control the width in the compact mode.</p>
@@ -219,7 +220,7 @@
                   </select>
                   <div class="input-icon col-5">
                     <input type="text" placeholder="Minimum">
-                    <i class="fa fa-minus _align-self-end"></i>
+                    <i class="fa fa-minus"></i>
                   </div>
                   <input type="text" class="col-4" placeholder="Maximum">
                 </div>
@@ -231,8 +232,8 @@
                 </div>
               </form>
             </div>
-          </article>
-        </section>
+          </section>
+        </div>
       </main>
     </div>
 
