@@ -1,0 +1,54 @@
+.nav-main {
+  background-color: $white;
+  border-bottom: 1px solid rgba(204, 204, 204, .8);
+  padding: 0 20px;
+  height: 68px;
+
+  button {
+    color: #323332;
+    cursor: pointer;
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  .search-form {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    .field {
+      border: none;
+      outline: none;
+      padding: 10px;
+      display: none;
+    }
+    .button {
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0 20px;
+    li {
+      button {
+        padding: 0 20px;
+        position: relative;
+        span {
+          position: absolute;
+          top: -13px;
+          right: 5px;
+        }
+      }
+    }
+  }
+
+  .profile {
+    position: relative;
+
+    span {
+      position: absolute;
+      right: 5px;
+      bottom: 0;
+    }
+  }
+}

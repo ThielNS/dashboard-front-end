@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <div class="row -flex-wrap">
+    <div class="content">
       <aside class="side-bar">
         <header class="side-bar-header">
           <h1>Isomorphic</h1>
@@ -126,38 +126,38 @@
         </nav>
       </aside>
       <main class="main-content">
-        <nav class="row -justify-space-between">
-          <button>
+        <nav class="nav-main row -justify-space-between  -align-items-center">
+          <button class="button -link -small">
             <i class="fa fa-bars"></i>
           </button>
-          <div class="row">
+          <div class="row -align-items-center">
             <form class="search-form" action="" method="post">
-              <input type="search" name="field" value="">
-              <button type="submit" name="button-search" class="action">
+              <input type="search" name="field" value="" class="field">
+              <button type="submit" name="button-search" class="button -link -small">
                 <i class="fa fa-search"></i>
               </button>
             </form>
-            <ul class="row">
+            <ul class="row  -align-items-center">
               <li>
-                <button type="button" name="message">
+                <button type="button" name="message" class="button -link -small -circle">
                   <span class="notification -yellow">4</span>
                   <i class="fa fa-envelope"></i>
                 </button>
               </li>
               <li>
-                <button type="button" name="alert">
+                <button type="button" name="alert" class="button -link -small">
                   <span class="notification -blue">4</span>
                   <i class="fa fa-bell"></i>
                 </button>
               </li>
               <li>
-                <button type="button" name="comment">
+                <button type="button" name="comment" class="button -link -small">
                   <span class="notification -purple">4</span>
                   <i class="fa fa-comments"></i>
                 </button>
               </li>
               <li>
-                <button type="button" name="shopping">
+                <button type="button" name="shopping" class="button -link -small">
                   <span class="notification -pink">4</span>
                   <i class="fa fa-shopping-cart"></i>
                 </button>
@@ -165,19 +165,19 @@
             </ul>
             <div class="profile">
               <div class="avatar -circle">
-                <img src="#" alt="image profile">
+                <img src="http://www.fedemploylaw.com/images/Joe-profile-square.png" alt="image profile">
               </div>
               <span class="status -online"></span>
             </div>
           </div>
         </nav>
-        <div class="container">
+        <div class="container-fluid">
           <section class="card col-12">
             <header>
               <h2>Input Group</h2>
               <p>Input.Group example Note: You dont need Col to control the width in the compact mode.</p>
             </header>
-            <div class="content">
+            <div class="container">
               <form action="" method="post">
                 <div class="form-group">
                   <input type="number" class="col-4">

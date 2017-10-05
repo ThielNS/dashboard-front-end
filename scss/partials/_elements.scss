@@ -1,0 +1,71 @@
+// BUTTONS
+.button {
+  padding: 10px 15px;
+  font-weight: 100px;
+  &.-link {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  &.-medium {
+    font-size: $font-size-medium;
+  }
+  &.-small {
+    font-size: 20px;
+  }
+}
+
+// NOTIFICATION
+.notification {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: #444;
+  color: #fff;
+
+  &.-yellow {
+    background-color: #feac02;
+  }
+  &.-blue {
+    background-color: #2a71ff;
+  }
+  &.-purple {
+    background-color: #422a99;
+  }
+  &.-pink {
+    background-color: #f85d81;
+  }
+}
+
+// PROFILE
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  overflow: hidden;
+
+  img{
+    width: 100%;
+  }
+
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+  &.-online {
+    background-color: #7dd322;
+  }
+}

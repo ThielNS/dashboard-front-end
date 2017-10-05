@@ -1,9 +1,8 @@
 .side-bar {
   width: 300px;
-  height: 100vh;
 
   .side-bar-header {
-    padding: 30px;
+    padding: 20px 30px;
     text-align: center;
     background-color: #202532;
 
@@ -20,6 +19,7 @@
 
     .accordion {
       list-style: none;
+
       li{
         display: block;
 
