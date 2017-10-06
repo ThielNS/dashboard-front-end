@@ -1,0 +1,9 @@
+.side-bar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  @import "_side-bar-header.scss";
+  @import "_side-bar-nav.scss";
+}
