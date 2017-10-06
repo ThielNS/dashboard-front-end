@@ -1,0 +1,45 @@
+.accordion {
+  list-style: none;
+
+  li{
+    display: block;
+
+    a{
+      display: flex;
+      flex-direction: row;
+      padding: 20px 0;
+      color: #788195;
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+      }
+      span{
+        flex: 1;
+      }
+      i{
+        padding: 0 20px;
+      }
+    }
+  }
+  .accordion-menu {
+    &.-selected {
+      > a {
+        color: #fff;
+      }
+      ul {
+        display: block;
+      }
+    }
+    ul{
+      display: none;
+      transform: height 1s;
+      overflow: hidden;
+      background-color: #202532;
+
+      li {
+        padding-left: 56px;
+      }
+    }
+  }
+}

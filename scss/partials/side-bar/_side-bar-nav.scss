@@ -1,5 +1,7 @@
 .side-bar-nav {
-  background-color: #2e3546;
   height: inherit;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  @import "../_accordion.scss";
 }
