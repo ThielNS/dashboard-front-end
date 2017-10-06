@@ -2,7 +2,7 @@
   background-color: $white;
   border-bottom: 1px solid rgba(204, 204, 204, .8);
   padding: 0 20px;
-  height: $size-bar-heigth;
+  height: $size-bar-height;
 
   button {
     color: #323332;
@@ -11,7 +11,7 @@
       opacity: .7;
     }
   }
-  
+
 
   .search-form {
     display: flex;
