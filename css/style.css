@@ -1,163 +1,62 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+/*
+Error: File to import not found or unreadable: partials/_side-bar.scss.
+       Load path: /Users/senai/Desktop/PROJETOS/dashboard/scss
+        on line 8 of scss/style.scss
 
-body {
-  font-family: "Helvetica", Arial, sans-serif; }
+3: @import "partials/_layout.scss";
+4: @import "partials/_helpers.scss";
+5: @import "partials/_elements.scss";
+6: 
+7: // COMPONENTS
+8: @import "partials/_side-bar.scss";
+9: @import "partials/_main-content.scss";
 
-.container {
-  max-width: 1410px;
-  margin: 0 auto; }
-
-.container-fluid {
-  width: 100%; }
-
-.content {
-  display: flex;
-  height: 100vh; }
-
-.row {
-  display: flex;
-  flex-direction: row; }
-  .row.-flex-wrap {
-    flex-wrap: wrap; }
-  .row.-justify-space-between {
-    justify-content: space-between; }
-  .row.-align-items-center {
-    align-items: center; }
-
-._align-self-end {
-  align-self: flex-end; }
-
-.button {
-  padding: 10px 15px;
-  font-weight: 100px; }
-  .button.-link {
-    background-color: transparent;
-    border: none;
-    padding: 0; }
-  .button.-medium {
-    font-size: 24px; }
-  .button.-small {
-    font-size: 20px; }
-
-.notification {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  background-color: #444;
-  color: #fff; }
-  .notification.-yellow {
-    background-color: #feac02; }
-  .notification.-blue {
-    background-color: #2a71ff; }
-  .notification.-purple {
-    background-color: #422a99; }
-  .notification.-pink {
-    background-color: #f85d81; }
-
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ccc;
-  overflow: hidden; }
-  .avatar img {
-    width: 100%; }
-
-.status {
-  width: 12px;
-  height: 12px;
-  border: 1px solid #fff;
-  border-radius: 50%; }
-  .status.-online {
-    background-color: #7dd322; }
-
-.side-bar {
-  width: 300px; }
-  .side-bar .side-bar-header {
-    padding: 20px 30px;
-    text-align: center;
-    background-color: #202532; }
-    .side-bar .side-bar-header h1 {
-      text-transform: uppercase;
-      color: #fff;
-      font-weight: 100;
-      letter-spacing: 4px; }
-  .side-bar .side-bar-nav {
-    background-color: #2e3546;
-    height: inherit; }
-    .side-bar .side-bar-nav .accordion {
-      list-style: none; }
-      .side-bar .side-bar-nav .accordion li {
-        display: block; }
-        .side-bar .side-bar-nav .accordion li a {
-          display: flex;
-          flex-direction: row;
-          padding: 20px 0;
-          color: #788195;
-          text-decoration: none; }
-          .side-bar .side-bar-nav .accordion li a:hover {
-            color: #fff; }
-          .side-bar .side-bar-nav .accordion li a span {
-            flex: 1; }
-          .side-bar .side-bar-nav .accordion li a i {
-            padding: 0 20px; }
-      .side-bar .side-bar-nav .accordion .accordion-menu:hover > ul {
-        height: auto; }
-      .side-bar .side-bar-nav .accordion .accordion-menu ul {
-        transform: height 1s;
-        overflow: hidden;
-        height: auto;
-        background-color: #202532; }
-        .side-bar .side-bar-nav .accordion .accordion-menu ul li {
-          padding-left: 56px; }
-
-.main-content {
-  flex: 1; }
-  .main-content .nav-main {
-    background-color: #FFF;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.8);
-    padding: 0 20px;
-    height: 68px; }
-    .main-content .nav-main button {
-      color: #323332;
-      cursor: pointer; }
-      .main-content .nav-main button:hover {
-        opacity: .7; }
-    .main-content .nav-main .search-form {
-      display: flex;
-      flex-direction: row;
-      position: relative; }
-      .main-content .nav-main .search-form .field {
-        border: none;
-        outline: none;
-        padding: 10px;
-        display: none; }
-    .main-content .nav-main ul {
-      list-style: none;
-      margin: 0 20px; }
-      .main-content .nav-main ul li button {
-        padding: 0 20px;
-        position: relative; }
-        .main-content .nav-main ul li button span {
-          position: absolute;
-          top: -13px;
-          right: 5px; }
-    .main-content .nav-main .profile {
-      position: relative; }
-      .main-content .nav-main .profile span {
-        position: absolute;
-        right: 5px;
-        bottom: 0; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/style.scss:8
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:45:in `import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: partials/_side-bar.scss.\A        Load path: /Users/senai/Desktop/PROJETOS/dashboard/scss\A         on line 8 of scss/style.scss\A \A 3: @import \"partials/_layout.scss\";\A 4: @import \"partials/_helpers.scss\";\A 5: @import \"partials/_elements.scss\";\A 6: \A 7: // COMPONENTS\A 8: @import \"partials/_side-bar.scss\";\A 9: @import \"partials/_main-content.scss\";"; }
