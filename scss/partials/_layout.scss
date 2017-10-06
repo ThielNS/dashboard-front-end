@@ -1,0 +1,28 @@
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 100%;
+}
+.content{
+  display: flex;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  &.-flex-wrap{
+    flex-wrap: wrap;
+  }
+  &.-justify-center{
+    justify-content: center;
+  }
+  &.-justify-space-between{
+    justify-content: space-between;
+  }
+  &.-align-items-center{
+    align-items: center;
+  }
+}
