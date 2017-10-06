@@ -1,7 +1,11 @@
 .side-bar-header {
   background-color: #202532;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
   height: $size-bar-height;
+  justify-content: center;
+  align-items: center;
 
   h1 {
     text-transform: uppercase;
