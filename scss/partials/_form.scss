@@ -15,29 +15,44 @@
   }
 
   .form-group {
-    display: block;
     margin-bottom: 20px;
+    display: flex;
 
     input {
       margin-bottom: 0;
     }
     &.-collapse {
-      display: flex;
-      border: 1px solid $border;
-      border-radius: 5px;
-      width: auto;
-      input, select {
+      input, select, .input-icon {
         margin: 0;
-        display: block;
-        border-radius: 0;
+        border-radius: none;
         margin-left: -1px;
-        border: none;
         border-left: 1px solid $border;
 
         &:nth-child(1){
-          border-radius: 5px;
+          border-radius: 5px 0 0 5px;
+        }
+        &:nth-last-child(1){
+          border-radius: 0 5px 5px 0;
         }
       }
+    }
+  }
+
+  .input-icon {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    overflow: hidden;
+    border: 1px solid $border;
+
+    input,select {
+      width: 100%;
+      border: 0;
+    }
+    i {
+      flex-shrink: 1;
+      padding-right: 10px;
+      color: #777;
     }
   }
 }
