@@ -6,3 +6,13 @@
 body{
   font-family: "Helvetica", Arial, sans-serif;
 }
+
+h1,h2,h3,h4{
+  color: $color-dark;
+}
+h2{
+  font-size: 1.2em;
+}
+p{
+  color: $color-grey;
+}
